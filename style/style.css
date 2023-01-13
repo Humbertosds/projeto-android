@@ -154,14 +154,14 @@ div.video{
     position: relative;
     padding: 20px;
     padding-bottom: 50%;
-    margin: 0px -19px 30px -19px;
+    margin: 0px -20px 30px -20px;
  
 }
 
 div.video > iframe{
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 5%; 
     width: 90%;
     height: 90%;
 
@@ -179,6 +179,10 @@ aside > ul{
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2192\00A0\00A0';
+}
+
+li{
+    cursor: pointer;
 }
 
 #aside{
